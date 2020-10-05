@@ -67,13 +67,13 @@ namespace NetCore01_2._1
             services.AddAuthentication()
                 .AddGoogle(options =>
                 {
-                    options.ClientId = "1020636691853-hkjvr1c5jqdgq1lvghl4f4htbopfovgo.apps.googleusercontent.com";
-                    options.ClientSecret = "ImbVF_pUie4yymk1i8gwDUGG";
+                    options.ClientId = "";
+                    options.ClientSecret = "";
                 })
                 .AddFacebook(options =>
                 {
-                    options.AppId = "604557880221780";
-                    options.AppSecret = "ee5f23e88867c500996bb08bdb3a3c91";
+                    options.AppId = "";
+                    options.AppSecret = "";
                 });
 
 
